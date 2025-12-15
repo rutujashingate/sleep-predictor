@@ -1,0 +1,41 @@
+# === Python / FastAPI backend ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Model files
+*.pkl
+*.joblib
+models/
+
+# Jupyter notebooks (if any outputs)
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# === Node / React frontend ===
+node_modules/
+build/
+dist/
+.env
+.npm
+
+# Yarn
+.yarn/
+.pnp.*
